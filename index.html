@@ -1,0 +1,166 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" href="img/cocina_icon.png">
+    <style>
+      * {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: #f3efe3;
+        color: #333;
+        padding: 20px;
+      }
+
+      header, footer {
+        background-color: #b85c38;
+        color: #fff;
+        width: 100%;
+        padding: 20px;
+        text-align: center;
+      }
+
+      header h1 {
+        font-size: 2.5em;
+        font-weight: 700;
+      }
+
+      nav {
+        background-color: #e07a5f;
+        width: 100%;
+        text-align: center;
+        padding: 10px;
+        margin-bottom: 20px;
+      }
+
+      nav ul {
+        list-style: none;
+        display: flex;
+        justify-content: center;
+      }
+
+      nav ul li {
+        margin: 0 15px;
+      }
+
+      nav a {
+        color: #fff;
+        text-decoration: none;
+        font-size: 1.1em;
+        transition: color 0.3s;
+      }
+
+      nav a:hover {
+        color: #f4a261;
+      }
+
+      main {
+        max-width: 900px;
+        background: #fff;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        border-radius: 8px;
+        padding: 30px;
+      }
+
+      h2 {
+        color: #b85c38;
+        margin-bottom: 20px;
+      }
+
+      .section {
+        margin-bottom: 20px;
+      }
+
+      .section h3 {
+        color: #e07a5f;
+        margin-bottom: 10px;
+      }
+
+      .section p {
+        margin-bottom: 15px;
+      }
+
+      .recipe-card {
+        background-color: #f9f7f4;
+        padding: 20px;
+        border: 1px solid #e07a5f;
+        border-radius: 8px;
+        margin-bottom: 15px;
+      }
+
+      .recipe-card h4 {
+        color: #b85c38;
+        margin-bottom: 8px;
+      }
+
+      footer p {
+        font-size: 0.9em;
+      }
+    </style>
+    <title>Explorando la Cocina</title>
+</head>
+<body>
+    <header>
+        <h1>Explorando la Cocina</h1>
+    </header>
+    
+    <nav>
+        <ul>
+            <li><a href="index.html">¿Quienes somos?</a></li>
+        <li><a href="estudios.html">Sopas</a></li>
+        <li><a href="contacto.html">Arroz</a></li>
+        <li><a href="redes.html">Mariscos</a></li>
+
+        </ul>
+    </nav>
+
+    <main>
+        <h2>Bienvenido a nuestro rincón culinario</h2>
+        <p>Explora una variedad de recetas diseñadas para cada ocasión y descubre nuevos sabores para enriquecer tus experiencias en la cocina.</p>
+        
+        <div class="section">
+            <h3>Recetas Destacadas</h3>
+            
+            <div class="recipe-card">
+                <h4>Paella Valenciana</h4>
+                <p>Un plato tradicional español lleno de sabor, ideal para disfrutar en familia.</p>
+                <ul>
+                    <li>Tiempo de preparación: 1 hora</li>
+                    <li>Ingredientes: arroz, pollo, conejo, verduras, azafrán</li>
+                </ul>
+            </div>
+
+            <div class="recipe-card">
+                <h4>Lasaña de Berenjena</h4>
+                <p>Una opción vegetariana deliciosa que combina capas de berenjena con queso y salsa de tomate.</p>
+                <ul>
+                    <li>Tiempo de preparación: 45 minutos</li>
+                    <li>Ingredientes: berenjena, mozzarella, salsa de tomate, albahaca</li>
+                </ul>
+            </div>
+
+            <div class="recipe-card">
+                <h4>Cheesecake de Frutos Rojos</h4>
+                <p>Un postre cremoso y dulce, perfecto para cerrar una comida especial.</p>
+                <ul>
+                    <li>Tiempo de preparación: 1 hora</li>
+                    <li>Ingredientes: queso crema, galletas, frutos rojos, azúcar</li>
+                </ul>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Explorando la Cocina - Todos los derechos reservados</p>
+    </footer>
+</body>
+</html>
